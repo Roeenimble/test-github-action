@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: echo
         run: |
-          echo "Input = ${{ github.inputs.temp_value }}"
+          echo "Input = ${{ inputs.temp_value }}"
