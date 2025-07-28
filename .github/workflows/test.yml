@@ -1,0 +1,15 @@
+name: Test
+on:
+  workflow_dispatch:
+    inputs:
+      temp_value:
+        description: 'dummy'
+        type: string
+        required: false
+        default: "A"
+jobs:
+  test:
+    steps:
+      - name: echo
+        run: |
+          echo "Input = ${{ inputs.browser }}"
