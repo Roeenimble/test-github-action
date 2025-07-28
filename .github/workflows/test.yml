@@ -9,7 +9,7 @@ on:
         default: "A"
 jobs:
   test:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: echo
         run: |
