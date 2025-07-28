@@ -5,8 +5,8 @@ on:
       temp_value:
         description: 'dummy'
         type: string
-        required: false
         default: "A"
+        required: false
 jobs:
   test:
     runs-on: ubuntu-latest
